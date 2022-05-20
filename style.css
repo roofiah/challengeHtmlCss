@@ -11,6 +11,7 @@ header .container{
     height: 40vH;
     border-radius: 50%;
     margin-top:20px;
+    background-color:#e3ebf3;
 }
 
 .contact{
@@ -34,6 +35,11 @@ aside{
 
 section{
     flex:1.6;
+}
+
+.portfolio{
+    width:150px;
+    height: 100px;
 }
 
 footer{
