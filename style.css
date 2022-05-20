@@ -1,0 +1,81 @@
+body{
+    background-color:#a4b2c0;
+    font-family: "Poppins", sans-serif;
+}
+
+header .container{
+    text-align: center;
+}
+
+.container > img{
+    height: 40vH;
+    border-radius: 50%;
+    margin-top:20px;
+}
+
+.contact{
+    text-align: center;
+}
+
+main{
+    display:flex;
+    flex-direction: row;
+    background-color: #e3ebf3;
+    margin:auto;
+    max-width: 1000px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+aside{
+    flex: 0.4;
+}
+
+section{
+    flex:1.6;
+}
+
+footer{
+    display:flex;
+    background-color: #343A40;
+    color:white;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.fa {
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50%;
+  }
+
+  .fa-linkedin {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-github{
+      background: #24292F;
+      color:white;
+  }
+
+  .fa-envelope{
+      background:#DD4B39;
+      color:white;
+  }
