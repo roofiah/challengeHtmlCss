@@ -14,6 +14,11 @@ header .container{
     background-color:#e3ebf3;
 }
 
+.container {
+    background-image: url('./assets/background.jpg');
+    padding:20px;
+}
+
 .contact{
     text-align: center;
 }
