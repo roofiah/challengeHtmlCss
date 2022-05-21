@@ -17,6 +17,12 @@ header .container{
 .container {
     background-image: url('./assets/background.jpg');
     padding:20px;
+    background-size: cover ;
+    /* background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./assets/background.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size:  cover;
+  -o-background-size: cover;
+  background-size: cover; */
 }
 
 .contact{
@@ -67,26 +73,46 @@ footer{
     border-radius: 50%;
   }
 
-  .fa-linkedin {
+.fa-linkedin {
     background: #3B5998;
     color: white;
   }
 
-  .fa-instagram {
+.fa-instagram {
     background: #125688;
     color: white;
   }
 
-  .fa-twitter {
+.fa-twitter {
     background: #55ACEE;
     color: white;
-  }
-  .fa-github{
+}
+.fa-github{
       background: #24292F;
       color:white;
-  }
+}
 
-  .fa-envelope{
+.fa-envelope{
       background:#DD4B39;
       color:white;
-  }
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #343A40;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
